@@ -7,4 +7,4 @@ after_success:
 env:
   global:
 #  paste your api_key here
-#  - secure:
+  - secure: a36a52e02ba7344fbcc56a9f332c4ada7400d4e34ff21f20b5e1cf817d24ebf4
