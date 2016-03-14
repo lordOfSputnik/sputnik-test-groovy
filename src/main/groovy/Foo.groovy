@@ -4,7 +4,7 @@ class Foo {
         try {
             print "An assertion in finally clause"
         } finally {
-            assert count > 3        // violation
+            assert count > 4        // violation
         }
     }
 }
