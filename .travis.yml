@@ -4,7 +4,7 @@ jdk:
 after_success:
 - python <(curl -s https://raw.githubusercontent.com/TouK/sputnik-ci/master/sputnik-ci.py)
 
+# paste your api_key here
 env:
   global:
-#  paste your api_key here
   - secure: SU0WdIOSCY9j2dc08QUp0Zx07FMqBaeMBA6G1jz1gKWmCDVRDJFB/5wiFeaF1sRVOjST06jb5qyCvm5De0tsf/C5ckwmTOwAFg/+qTOrJ390pp1Nv3enBNcJ+jhEtpbbgic8QnUuC+rYFvTNs+UqWNyGuiS0z37qVsfwcAGJPgqQ2N6k6QXC+sTZ1IBuJBgu3txwRRJ1XzfErsvCA33UUlP3qV7QIUdaCOjUw4po8gSU68hvr38tGjHRX06zEP+zDGfrn5Kr9jqbKjINyeSrtUC2PM7jsRugqcEBSc9BKlGeayIg6qS8Yv4OhElA9MRgeu1gQ0ybubdWwxAob/lhke0D4cOyIhMp33AlFDncuGUxkBE+ElYVUDlyw25RwWl04S9OgmR7K1p3AF1U0b2QVBzweHMR13xO8Q1/qhliSX5vsJHfO+e7/SNE4BvkxRYeIOIbmKMnUgE2J94fN1KU1vbGUtPYxPTfceVgTVwQzGalidm4oC8xa4E9xhxo8TCXAHEo8xO0MDgzixwTjuK2ozfNCfFyG1TfTr8xZ6bA03wx5IuXbld51O63+M+zt9csuGp6hQq3uoxpasZyY9Vr9t/LNb1vTlNBWw7mxs9Kqo9w4lj/NVrFH8xP0/Oh3kDpl+dUYh+UgmosYvZykEnckTeZ9UXOuNwRA3x2J1+hviU=
